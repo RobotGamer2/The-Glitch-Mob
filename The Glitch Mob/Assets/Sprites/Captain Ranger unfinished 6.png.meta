@@ -1,49 +1,49 @@
 fileFormatVersion: 2
-guid: 5a7a3de0586780a4fadc5e081ac0fdca
+guid: d70236b8f39a0cc4fb85b1280d6eda4f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3103916446999645472
-    second: Captain Ranger unfinished 4_0
+      213: 4156232817598170435
+    second: Captain Ranger unfinished 6_0
   - first:
-      213: 7186038143807605025
-    second: Captain Ranger unfinished 4_1
+      213: -8439273429437720515
+    second: Captain Ranger unfinished 6_1
   - first:
-      213: 316009574506262786
-    second: Captain Ranger unfinished 4_2
+      213: -9165181438061880696
+    second: Captain Ranger unfinished 6_2
   - first:
-      213: -3603714061063983854
-    second: Captain Ranger unfinished 4_3
+      213: 2803434862254392860
+    second: Captain Ranger unfinished 6_3
   - first:
-      213: -4858878287299227105
-    second: Captain Ranger unfinished 4_4
+      213: -3235252974582475719
+    second: Captain Ranger unfinished 6_4
   - first:
-      213: -7503925775990886899
-    second: Captain Ranger unfinished 4_5
+      213: -5624762732683841749
+    second: Captain Ranger unfinished 6_5
   - first:
-      213: 3318662292763057629
-    second: Captain Ranger unfinished 4_6
+      213: 6506723008401530146
+    second: Captain Ranger unfinished 6_6
   - first:
-      213: -3947943951794453854
-    second: Captain Ranger unfinished 4_7
+      213: 5323673308036061338
+    second: Captain Ranger unfinished 6_7
   - first:
-      213: 5782032610779436452
-    second: Captain Ranger unfinished 4_8
+      213: 4896191212176553978
+    second: Captain Ranger unfinished 6_8
   - first:
-      213: -3326529032105352122
-    second: Captain Ranger unfinished 4_9
+      213: -6653515604651602518
+    second: Captain Ranger unfinished 6_9
   - first:
-      213: -3905723821738687464
-    second: Captain Ranger unfinished 4_10
+      213: 1570150660911538201
+    second: Captain Ranger unfinished 6_10
   - first:
-      213: 3436605054509983672
-    second: Captain Ranger unfinished 4_11
+      213: -7543180633220418585
+    second: Captain Ranger unfinished 6_11
   - first:
-      213: -8770919207027833945
-    second: Captain Ranger unfinished 4_12
+      213: -5369247384365646864
+    second: Captain Ranger unfinished 6_12
   - first:
-      213: -8066440978668054870
-    second: Captain Ranger unfinished 4_13
+      213: 1093910802844653160
+    second: Captain Ranger unfinished 6_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,29 +139,29 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_0
+      name: Captain Ranger unfinished 6_0
       rect:
         serializedVersion: 2
-        x: 197
-        y: 1913
-        width: 288
-        height: 236
+        x: 196
+        y: 1912
+        width: 226
+        height: 237
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e2f71ccf6cace4d0800000000000000
-      internalID: -3103916446999645472
+      spriteID: 34582c81ab7eda930800000000000000
+      internalID: 4156232817598170435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_1
+      name: Captain Ranger unfinished 6_1
       rect:
         serializedVersion: 2
         x: 821
@@ -169,21 +169,21 @@ TextureImporter:
         width: 170
         height: 242
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1294f085e9fe9b360800000000000000
-      internalID: 7186038143807605025
+      spriteID: d38d8f3778da1ea80800000000000000
+      internalID: -8439273429437720515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_2
+      name: Captain Ranger unfinished 6_2
       rect:
         serializedVersion: 2
         x: 1445
@@ -191,21 +191,21 @@ TextureImporter:
         width: 146
         height: 248
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2017112a801b26400800000000000000
-      internalID: 316009574506262786
+      spriteID: 88a51529a0cbec080800000000000000
+      internalID: -9165181438061880696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_3
+      name: Captain Ranger unfinished 6_3
       rect:
         serializedVersion: 2
         x: 215
@@ -213,21 +213,21 @@ TextureImporter:
         width: 188
         height: 248
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21d633e97290dfdc0800000000000000
-      internalID: -3603714061063983854
+      spriteID: c168e9b672dc7e620800000000000000
+      internalID: 2803434862254392860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_4
+      name: Captain Ranger unfinished 6_4
       rect:
         serializedVersion: 2
         x: 803
@@ -235,21 +235,21 @@ TextureImporter:
         width: 224
         height: 230
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f12dbaee0fbc19cb0800000000000000
-      internalID: -4858878287299227105
+      spriteID: 9345c7b8f821a13d0800000000000000
+      internalID: -3235252974582475719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_5
+      name: Captain Ranger unfinished 6_5
       rect:
         serializedVersion: 2
         x: 1379
@@ -257,21 +257,21 @@ TextureImporter:
         width: 242
         height: 224
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0e6a25a343bcd790800000000000000
-      internalID: -7503925775990886899
+      spriteID: b2f268c8814d0f1b0800000000000000
+      internalID: -5624762732683841749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_6
+      name: Captain Ranger unfinished 6_6
       rect:
         serializedVersion: 2
         x: 191
@@ -279,21 +279,21 @@ TextureImporter:
         width: 206
         height: 242
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ddd10a1b5c14e0e20800000000000000
-      internalID: 3318662292763057629
+      spriteID: 22d52af1a168c4a50800000000000000
+      internalID: 6506723008401530146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_7
+      name: Captain Ranger unfinished 6_7
       rect:
         serializedVersion: 2
         x: 809
@@ -301,21 +301,21 @@ TextureImporter:
         width: 182
         height: 248
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2a2c32894e51639c0800000000000000
-      internalID: -3947943951794453854
+      spriteID: a98d7b9eaac71e940800000000000000
+      internalID: 5323673308036061338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_8
+      name: Captain Ranger unfinished 6_8
       rect:
         serializedVersion: 2
         x: 1427
@@ -323,21 +323,21 @@ TextureImporter:
         width: 164
         height: 260
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a59b356608ed3050800000000000000
-      internalID: 5782032610779436452
+      spriteID: af73c2267f3c2f340800000000000000
+      internalID: 4896191212176553978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_9
+      name: Captain Ranger unfinished 6_9
       rect:
         serializedVersion: 2
         x: 227
@@ -345,21 +345,21 @@ TextureImporter:
         width: 164
         height: 248
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6442652587bc5d1d0800000000000000
-      internalID: -3326529032105352122
+      spriteID: aad09353fc6f9a3a0800000000000000
+      internalID: -6653515604651602518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_10
+      name: Captain Ranger unfinished 6_10
       rect:
         serializedVersion: 2
         x: 803
@@ -367,21 +367,21 @@ TextureImporter:
         width: 200
         height: 248
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8140c76a0e41cc9c0800000000000000
-      internalID: -3905723821738687464
+      spriteID: 9102a7305bb4ac510800000000000000
+      internalID: 1570150660911538201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_11
+      name: Captain Ranger unfinished 6_11
       rect:
         serializedVersion: 2
         x: 1391
@@ -389,21 +389,21 @@ TextureImporter:
         width: 236
         height: 230
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b72163d61641bf20800000000000000
-      internalID: 3436605054509983672
+      spriteID: 7e37a48fd2d315790800000000000000
+      internalID: -7543180633220418585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_12
+      name: Captain Ranger unfinished 6_12
       rect:
         serializedVersion: 2
         x: 185
@@ -411,21 +411,21 @@ TextureImporter:
         width: 242
         height: 224
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a38477937f674680800000000000000
-      internalID: -8770919207027833945
+      spriteID: 0fbb0bf83f99c75b0800000000000000
+      internalID: -5369247384365646864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_13
+      name: Captain Ranger unfinished 6_13
       rect:
         serializedVersion: 2
         x: 791
@@ -433,15 +433,15 @@ TextureImporter:
         width: 218
         height: 230
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa616d0faae3e0090800000000000000
-      internalID: -8066440978668054870
+      spriteID: 8669483541a5e2f00800000000000000
+      internalID: 1093910802844653160
       vertices: []
       indices: 
       edges: []
@@ -450,7 +450,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 73244c1600fefa04b82423c4424680a9
     internalID: 0
     vertices: []
     indices: 
@@ -460,20 +460,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Captain Ranger unfinished 4_0: -3103916446999645472
-      Captain Ranger unfinished 4_1: 7186038143807605025
-      Captain Ranger unfinished 4_10: -3905723821738687464
-      Captain Ranger unfinished 4_11: 3436605054509983672
-      Captain Ranger unfinished 4_12: -8770919207027833945
-      Captain Ranger unfinished 4_13: -8066440978668054870
-      Captain Ranger unfinished 4_2: 316009574506262786
-      Captain Ranger unfinished 4_3: -3603714061063983854
-      Captain Ranger unfinished 4_4: -4858878287299227105
-      Captain Ranger unfinished 4_5: -7503925775990886899
-      Captain Ranger unfinished 4_6: 3318662292763057629
-      Captain Ranger unfinished 4_7: -3947943951794453854
-      Captain Ranger unfinished 4_8: 5782032610779436452
-      Captain Ranger unfinished 4_9: -3326529032105352122
+      Captain Ranger unfinished 6_0: 4156232817598170435
+      Captain Ranger unfinished 6_1: -8439273429437720515
+      Captain Ranger unfinished 6_10: 1570150660911538201
+      Captain Ranger unfinished 6_11: -7543180633220418585
+      Captain Ranger unfinished 6_12: -5369247384365646864
+      Captain Ranger unfinished 6_13: 1093910802844653160
+      Captain Ranger unfinished 6_2: -9165181438061880696
+      Captain Ranger unfinished 6_3: 2803434862254392860
+      Captain Ranger unfinished 6_4: -3235252974582475719
+      Captain Ranger unfinished 6_5: -5624762732683841749
+      Captain Ranger unfinished 6_6: 6506723008401530146
+      Captain Ranger unfinished 6_7: 5323673308036061338
+      Captain Ranger unfinished 6_8: 4896191212176553978
+      Captain Ranger unfinished 6_9: -6653515604651602518
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
