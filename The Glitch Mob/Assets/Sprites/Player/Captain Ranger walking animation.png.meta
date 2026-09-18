@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: da4d894ce4a3934469d587a9e87eca5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5434119847736837876
+    second: Captain Ranger walking animation_0
+  - first:
+      213: 2561815740882272818
+    second: Captain Ranger walking animation_1
+  - first:
+      213: 4870200650590324192
+    second: Captain Ranger walking animation_2
+  - first:
+      213: -5295905149547608124
+    second: Captain Ranger walking animation_3
+  - first:
+      213: -7104300583131815641
+    second: Captain Ranger walking animation_4
+  - first:
+      213: -1151824198590031084
+    second: Captain Ranger walking animation_5
+  - first:
+      213: 1213471509567017186
+    second: Captain Ranger walking animation_6
+  - first:
+      213: 9053047866385610596
+    second: Captain Ranger walking animation_7
+  - first:
+      213: -1209306483874009095
+    second: Captain Ranger walking animation_8
+  - first:
+      213: -3011284250596494567
+    second: Captain Ranger walking animation_9
+  - first:
+      213: 8724153260070743569
+    second: Captain Ranger walking animation_10
+  - first:
+      213: -2188000984245807928
+    second: Captain Ranger walking animation_11
+  - first:
+      213: -5051553735988006206
+    second: Captain Ranger walking animation_12
+  - first:
+      213: 1850537210641680985
+    second: Captain Ranger walking animation_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Captain Ranger walking animation_0
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1907
+        width: 200
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f60147d53fd96b40800000000000000
+      internalID: 5434119847736837876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger walking animation_1
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1904
+        width: 170
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232ca4fd7d56d8320800000000000000
+      internalID: 2561815740882272818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger walking animation_2
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1901
+        width: 146
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5005330bd669340800000000000000
+      internalID: 4870200650590324192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger walking animation_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1451
+        width: 188
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c78d0d435a2186b0800000000000000
+      internalID: -5295905149547608124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger walking animation_4
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1460
+        width: 224
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721e3d48244786d90800000000000000
+      internalID: -7104300583131815641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger walking animation_5
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1463
+        width: 242
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b97577ef5e300f0800000000000000
+      internalID: -1151824198590031084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger walking animation_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1004
+        width: 206
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e09cc0a8ed17d010800000000000000
+      internalID: 1213471509567017186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger walking animation_7
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1001
+        width: 182
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467b582c113e2ad70800000000000000
+      internalID: 9053047866385610596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger walking animation_8
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 995
+        width: 164
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffec1cf82ea73fe0800000000000000
+      internalID: -1209306483874009095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger walking animation_9
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 551
+        width: 164
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913b775bde4c536d0800000000000000
+      internalID: -3011284250596494567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger walking animation_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 551
+        width: 200
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e2590ea2b621970800000000000000
+      internalID: 8724153260070743569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger walking animation_11
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 560
+        width: 236
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4d2d582b8a2a1e0800000000000000
+      internalID: -2188000984245807928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger walking animation_12
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 113
+        width: 242
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c233a234a645e9b0800000000000000
+      internalID: -5051553735988006206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger walking animation_13
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 110
+        width: 218
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a80fbd9cd6ea910800000000000000
+      internalID: 1850537210641680985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Captain Ranger walking animation_0: 5434119847736837876
+      Captain Ranger walking animation_1: 2561815740882272818
+      Captain Ranger walking animation_10: 8724153260070743569
+      Captain Ranger walking animation_11: -2188000984245807928
+      Captain Ranger walking animation_12: -5051553735988006206
+      Captain Ranger walking animation_13: 1850537210641680985
+      Captain Ranger walking animation_2: 4870200650590324192
+      Captain Ranger walking animation_3: -5295905149547608124
+      Captain Ranger walking animation_4: -7104300583131815641
+      Captain Ranger walking animation_5: -1151824198590031084
+      Captain Ranger walking animation_6: 1213471509567017186
+      Captain Ranger walking animation_7: 9053047866385610596
+      Captain Ranger walking animation_8: -1209306483874009095
+      Captain Ranger walking animation_9: -3011284250596494567
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
