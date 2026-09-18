@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 504625140}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.19, z: 0}
+  m_LocalPosition: {x: 0.2, y: -1.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1319,10 +1319,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1520625539}
   - component: {fileID: 1520625538}
+  - component: {fileID: 1520625541}
   - component: {fileID: 1520625537}
   - component: {fileID: 1520625543}
   - component: {fileID: 1520625544}
-  - component: {fileID: 1520625541}
   - component: {fileID: 1520625542}
   m_Layer: 0
   m_Name: Player
@@ -1346,7 +1346,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 1.2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1448,9 +1448,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMove
   rb: {fileID: 1520625537}
   playerInput: {fileID: 1520625544}
-  speed: 5
+  speed: 7
+  jumpForce: 10
+  jumpCutMultiplier: 0.5
+  normalGravity: 1.2
+  fallGravity: 0.8
+  jumpGravity: 1
   facingDirection: 1
-  moveInput: {x: 0, y: 0}
+  groundCheck: {fileID: 504625141}
+  groundCheckRadius: 0.5
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!95 &1520625542
 Animator:
   serializedVersion: 7
