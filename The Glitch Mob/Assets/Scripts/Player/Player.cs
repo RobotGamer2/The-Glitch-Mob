@@ -5,8 +5,10 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
+    [Header("Components")]
     public Rigidbody2D rb;
     public PlayerInput playerInput;
+    public Animator anim;
 
     [Header("Movement Variables")]
     public float speed;
@@ -39,11 +41,11 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        
         Flip();
+        HandleAnimations();
     }
 
-        void FixedUpdate()
+    void FixedUpdate()
     {
         ApplyVariableGravity();
         CheckGrounded();
@@ -81,7 +83,7 @@ public class Player : MonoBehaviour
 
     void ApplyVariableGravity()
     {
-        if(rb.linearVelocity.y < -0.1f)     //faling
+        if (rb.linearVelocity.y < -0.1f)     //faling
         {
             rb.gravityScale = fallGravity;
         }
@@ -99,6 +101,13 @@ public class Player : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
     }
+
+
+    void HandleAnimations()
+    {
+        anim.SetBool("isIdle", Mathf.Abs(moveInput.x) < .1f && isGrounded);
+        anim.SetBool("isWalking", Mathf.Abs(moveInput.x) > .1f && isGrounded);
+    } 
 
 
     void Flip()
