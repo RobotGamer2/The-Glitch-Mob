@@ -1,49 +1,49 @@
 fileFormatVersion: 2
-guid: 5a7a3de0586780a4fadc5e081ac0fdca
+guid: da4d894ce4a3934469d587a9e87eca5e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3103916446999645472
-    second: Captain Ranger unfinished 4_0
+      213: 5434119847736837876
+    second: Captain Ranger walking animation_0
   - first:
-      213: 7186038143807605025
-    second: Captain Ranger unfinished 4_1
+      213: 2561815740882272818
+    second: Captain Ranger walking animation_1
   - first:
-      213: 316009574506262786
-    second: Captain Ranger unfinished 4_2
+      213: 4870200650590324192
+    second: Captain Ranger walking animation_2
   - first:
-      213: -3603714061063983854
-    second: Captain Ranger unfinished 4_3
+      213: -5295905149547608124
+    second: Captain Ranger walking animation_3
   - first:
-      213: -4858878287299227105
-    second: Captain Ranger unfinished 4_4
+      213: -7104300583131815641
+    second: Captain Ranger walking animation_4
   - first:
-      213: -7503925775990886899
-    second: Captain Ranger unfinished 4_5
+      213: -1151824198590031084
+    second: Captain Ranger walking animation_5
   - first:
-      213: 3318662292763057629
-    second: Captain Ranger unfinished 4_6
+      213: 1213471509567017186
+    second: Captain Ranger walking animation_6
   - first:
-      213: -3947943951794453854
-    second: Captain Ranger unfinished 4_7
+      213: 9053047866385610596
+    second: Captain Ranger walking animation_7
   - first:
-      213: 5782032610779436452
-    second: Captain Ranger unfinished 4_8
+      213: -1209306483874009095
+    second: Captain Ranger walking animation_8
   - first:
-      213: -3326529032105352122
-    second: Captain Ranger unfinished 4_9
+      213: -3011284250596494567
+    second: Captain Ranger walking animation_9
   - first:
-      213: -3905723821738687464
-    second: Captain Ranger unfinished 4_10
+      213: 8724153260070743569
+    second: Captain Ranger walking animation_10
   - first:
-      213: 3436605054509983672
-    second: Captain Ranger unfinished 4_11
+      213: -2188000984245807928
+    second: Captain Ranger walking animation_11
   - first:
-      213: -8770919207027833945
-    second: Captain Ranger unfinished 4_12
+      213: -5051553735988006206
+    second: Captain Ranger walking animation_12
   - first:
-      213: -8066440978668054870
-    second: Captain Ranger unfinished 4_13
+      213: 1850537210641680985
+    second: Captain Ranger walking animation_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -76,7 +76,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,7 +113,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -139,12 +139,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_0
+      name: Captain Ranger walking animation_0
       rect:
         serializedVersion: 2
-        x: 197
-        y: 1913
-        width: 288
+        x: 200
+        y: 1907
+        width: 200
         height: 236
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -154,18 +154,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e2f71ccf6cace4d0800000000000000
-      internalID: -3103916446999645472
+      spriteID: 4f60147d53fd96b40800000000000000
+      internalID: 5434119847736837876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_1
+      name: Captain Ranger walking animation_1
       rect:
         serializedVersion: 2
-        x: 821
-        y: 1913
+        x: 815
+        y: 1904
         width: 170
         height: 242
       alignment: 0
@@ -176,18 +176,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1294f085e9fe9b360800000000000000
-      internalID: 7186038143807605025
+      spriteID: 232ca4fd7d56d8320800000000000000
+      internalID: 2561815740882272818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_2
+      name: Captain Ranger walking animation_2
       rect:
         serializedVersion: 2
-        x: 1445
-        y: 1907
+        x: 1427
+        y: 1901
         width: 146
         height: 248
       alignment: 0
@@ -198,18 +198,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2017112a801b26400800000000000000
-      internalID: 316009574506262786
+      spriteID: 0e5005330bd669340800000000000000
+      internalID: 4870200650590324192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_3
+      name: Captain Ranger walking animation_3
       rect:
         serializedVersion: 2
-        x: 215
-        y: 1457
+        x: 206
+        y: 1451
         width: 188
         height: 248
       alignment: 0
@@ -220,18 +220,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21d633e97290dfdc0800000000000000
-      internalID: -3603714061063983854
+      spriteID: 4c78d0d435a2186b0800000000000000
+      internalID: -5295905149547608124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_4
+      name: Captain Ranger walking animation_4
       rect:
         serializedVersion: 2
-        x: 803
-        y: 1475
+        x: 788
+        y: 1460
         width: 224
         height: 230
       alignment: 0
@@ -242,18 +242,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f12dbaee0fbc19cb0800000000000000
-      internalID: -4858878287299227105
+      spriteID: 721e3d48244786d90800000000000000
+      internalID: -7104300583131815641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_5
+      name: Captain Ranger walking animation_5
       rect:
         serializedVersion: 2
         x: 1379
-        y: 1475
+        y: 1463
         width: 242
         height: 224
       alignment: 0
@@ -264,18 +264,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0e6a25a343bcd790800000000000000
-      internalID: -7503925775990886899
+      spriteID: 41b97577ef5e300f0800000000000000
+      internalID: -1151824198590031084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_6
+      name: Captain Ranger walking animation_6
       rect:
         serializedVersion: 2
-        x: 191
-        y: 1007
+        x: 197
+        y: 1004
         width: 206
         height: 242
       alignment: 0
@@ -286,18 +286,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ddd10a1b5c14e0e20800000000000000
-      internalID: 3318662292763057629
+      spriteID: 2e09cc0a8ed17d010800000000000000
+      internalID: 1213471509567017186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_7
+      name: Captain Ranger walking animation_7
       rect:
         serializedVersion: 2
         x: 809
-        y: 1007
+        y: 1001
         width: 182
         height: 248
       alignment: 0
@@ -308,18 +308,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2a2c32894e51639c0800000000000000
-      internalID: -3947943951794453854
+      spriteID: 467b582c113e2ad70800000000000000
+      internalID: 9053047866385610596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_8
+      name: Captain Ranger walking animation_8
       rect:
         serializedVersion: 2
-        x: 1427
-        y: 1001
+        x: 1418
+        y: 995
         width: 164
         height: 260
       alignment: 0
@@ -330,18 +330,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a59b356608ed3050800000000000000
-      internalID: 5782032610779436452
+      spriteID: 9ffec1cf82ea73fe0800000000000000
+      internalID: -1209306483874009095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_9
+      name: Captain Ranger walking animation_9
       rect:
         serializedVersion: 2
-        x: 227
-        y: 563
+        x: 218
+        y: 551
         width: 164
         height: 248
       alignment: 0
@@ -352,18 +352,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6442652587bc5d1d0800000000000000
-      internalID: -3326529032105352122
+      spriteID: 913b775bde4c536d0800000000000000
+      internalID: -3011284250596494567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_10
+      name: Captain Ranger walking animation_10
       rect:
         serializedVersion: 2
-        x: 803
-        y: 563
+        x: 800
+        y: 551
         width: 200
         height: 248
       alignment: 0
@@ -374,18 +374,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8140c76a0e41cc9c0800000000000000
-      internalID: -3905723821738687464
+      spriteID: 11e2590ea2b621970800000000000000
+      internalID: 8724153260070743569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_11
+      name: Captain Ranger walking animation_11
       rect:
         serializedVersion: 2
-        x: 1391
-        y: 581
+        x: 1382
+        y: 560
         width: 236
         height: 230
       alignment: 0
@@ -396,18 +396,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b72163d61641bf20800000000000000
-      internalID: 3436605054509983672
+      spriteID: 8c4d2d582b8a2a1e0800000000000000
+      internalID: -2188000984245807928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_12
+      name: Captain Ranger walking animation_12
       rect:
         serializedVersion: 2
-        x: 185
-        y: 131
+        x: 179
+        y: 113
         width: 242
         height: 224
       alignment: 0
@@ -418,18 +418,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a38477937f674680800000000000000
-      internalID: -8770919207027833945
+      spriteID: 2c233a234a645e9b0800000000000000
+      internalID: -5051553735988006206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captain Ranger unfinished 4_13
+      name: Captain Ranger walking animation_13
       rect:
         serializedVersion: 2
         x: 791
-        y: 113
+        y: 110
         width: 218
         height: 230
       alignment: 0
@@ -440,8 +440,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa616d0faae3e0090800000000000000
-      internalID: -8066440978668054870
+      spriteID: 95a80fbd9cd6ea910800000000000000
+      internalID: 1850537210641680985
       vertices: []
       indices: 
       edges: []
@@ -460,20 +460,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Captain Ranger unfinished 4_0: -3103916446999645472
-      Captain Ranger unfinished 4_1: 7186038143807605025
-      Captain Ranger unfinished 4_10: -3905723821738687464
-      Captain Ranger unfinished 4_11: 3436605054509983672
-      Captain Ranger unfinished 4_12: -8770919207027833945
-      Captain Ranger unfinished 4_13: -8066440978668054870
-      Captain Ranger unfinished 4_2: 316009574506262786
-      Captain Ranger unfinished 4_3: -3603714061063983854
-      Captain Ranger unfinished 4_4: -4858878287299227105
-      Captain Ranger unfinished 4_5: -7503925775990886899
-      Captain Ranger unfinished 4_6: 3318662292763057629
-      Captain Ranger unfinished 4_7: -3947943951794453854
-      Captain Ranger unfinished 4_8: 5782032610779436452
-      Captain Ranger unfinished 4_9: -3326529032105352122
+      Captain Ranger walking animation_0: 5434119847736837876
+      Captain Ranger walking animation_1: 2561815740882272818
+      Captain Ranger walking animation_10: 8724153260070743569
+      Captain Ranger walking animation_11: -2188000984245807928
+      Captain Ranger walking animation_12: -5051553735988006206
+      Captain Ranger walking animation_13: 1850537210641680985
+      Captain Ranger walking animation_2: 4870200650590324192
+      Captain Ranger walking animation_3: -5295905149547608124
+      Captain Ranger walking animation_4: -7104300583131815641
+      Captain Ranger walking animation_5: -1151824198590031084
+      Captain Ranger walking animation_6: 1213471509567017186
+      Captain Ranger walking animation_7: 9053047866385610596
+      Captain Ranger walking animation_8: -1209306483874009095
+      Captain Ranger walking animation_9: -3011284250596494567
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
