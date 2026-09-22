@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: a76f9658380b6df48b764d9936ef8a6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7888124234487052851
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_0
+  - first:
+      213: 824371259207413837
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_1
+  - first:
+      213: -5168517701326799324
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_2
+  - first:
+      213: -6991365802957174526
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_3
+  - first:
+      213: 6485095884099820671
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_4
+  - first:
+      213: 6678777141287987712
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_5
+  - first:
+      213: -2942690858025910061
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_6
+  - first:
+      213: -5722661494275278853
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_7
+  - first:
+      213: -2547536017926495703
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_8
+  - first:
+      213: 686150510632313393
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_9
+  - first:
+      213: -6397492923898707394
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_10
+  - first:
+      213: -6820891312095309389
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_11
+  - first:
+      213: -3572854224772601774
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_12
+  - first:
+      213: 4791482684335560939
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_13
+  - first:
+      213: -5310776668379806045
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_14
+  - first:
+      213: 3705382780685342125
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_15
+  - first:
+      213: -6885145603058420149
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_16
+  - first:
+      213: -7515054584364944592
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_17
+  - first:
+      213: -3882000122769087312
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_18
+  - first:
+      213: -7894038314251508947
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_19
+  - first:
+      213: 7124031135775175645
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_20
+  - first:
+      213: 57694593786000117
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_21
+  - first:
+      213: 25217633061856240
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_22
+  - first:
+      213: 8931540458704746449
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_23
+  - first:
+      213: 6131910657751521776
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_24
+  - first:
+      213: -473940707827021381
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_25
+  - first:
+      213: 5716155731399485080
+    second: Captain Ranger jump and jetpack animation FINISHED FINISHED_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 17
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 389
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5cf334dc0c78290800000000000000
+      internalID: -7888124234487052851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 381
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d407914ea41c07b00800000000000000
+      internalID: 824371259207413837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 386
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ef81dd88cb548b0800000000000000
+      internalID: -5168517701326799324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_3
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 380
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2098ce318dda9fe90800000000000000
+      internalID: -6991365802957174526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_4
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 391
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c1e1ad850bff950800000000000000
+      internalID: 6485095884099820671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 316
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a2870ac68cfac50800000000000000
+      internalID: 6678777141287987712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_6
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 316
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0839371467927d0800000000000000
+      internalID: -2942690858025910061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_7
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 316
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf77aefd0b50590b0800000000000000
+      internalID: -5722661494275278853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_8
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 316
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9226af63d7555acd0800000000000000
+      internalID: -2547536017926495703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_9
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 316
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13221b80142b58900800000000000000
+      internalID: 686150510632313393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 241
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3241f1c41a8737a0800000000000000
+      internalID: -6397492923898707394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_11
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 241
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1d2038d735751a0800000000000000
+      internalID: -6820891312095309389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_12
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 241
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258ec2a230caa6ec0800000000000000
+      internalID: -3572854224772601774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_13
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 241
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be891437d14ce7240800000000000000
+      internalID: 4791482684335560939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_14
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 241
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a60acff1c45c46b0800000000000000
+      internalID: -5310776668379806045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_15
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 166
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5599fc10a2c6330800000000000000
+      internalID: 3705382780685342125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 166
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b463cd69d8c0370a0800000000000000
+      internalID: -6885145603058420149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_17
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 166
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033b1470ca925b790800000000000000
+      internalID: -7515054584364944592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_18
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 166
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b46350c47d502ac0800000000000000
+      internalID: -3882000122769087312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_19
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 166
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2327b34afdb27290800000000000000
+      internalID: -7894038314251508947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 91
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3b3b0c294add260800000000000000
+      internalID: 7124031135775175645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_21
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 91
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f233186de8fcc000800000000000000
+      internalID: 57694593786000117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_22
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 91
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f36abcbd47995000800000000000000
+      internalID: 25217633061856240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_23
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 91
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d73022d9b433fb70800000000000000
+      internalID: 8931540458704746449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_24
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 85
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f916b5414ce81550800000000000000
+      internalID: 6131910657751521776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_25
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 6
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb98f51ff693c69f0800000000000000
+      internalID: -473940707827021381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain Ranger jump and jetpack animation FINISHED FINISHED_26
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 6
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89621ea2a5dd35f40800000000000000
+      internalID: 5716155731399485080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_0: -7888124234487052851
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_1: 824371259207413837
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_10: -6397492923898707394
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_11: -6820891312095309389
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_12: -3572854224772601774
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_13: 4791482684335560939
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_14: -5310776668379806045
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_15: 3705382780685342125
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_16: -6885145603058420149
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_17: -7515054584364944592
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_18: -3882000122769087312
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_19: -7894038314251508947
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_2: -5168517701326799324
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_20: 7124031135775175645
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_21: 57694593786000117
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_22: 25217633061856240
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_23: 8931540458704746449
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_24: 6131910657751521776
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_25: -473940707827021381
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_26: 5716155731399485080
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_3: -6991365802957174526
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_4: 6485095884099820671
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_5: 6678777141287987712
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_6: -2942690858025910061
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_7: -5722661494275278853
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_8: -2547536017926495703
+      Captain Ranger jump and jetpack animation FINISHED FINISHED_9: 686150510632313393
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
