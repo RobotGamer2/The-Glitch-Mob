@@ -112,9 +112,12 @@ public class Player : MonoBehaviour
         anim.SetBool("isGrounded", isGrounded);
 
         anim.SetFloat("yVelocity", rb.linearVelocity.y);
-        
-        anim.SetBool("isIdle", Mathf.Abs(moveInput.x) < .1f && isGrounded);
-        anim.SetBool("isWalking", Mathf.Abs(moveInput.x) > .1f && isGrounded);
+
+        bool isMoving = Mathf.Abs(moveInput.x) > .1f && isGrounded;
+
+        anim.SetBool("isIdle", !isMoving && isGrounded);
+        anim.SetBool("isWalking", isMoving && !runPressed);
+        anim.SetBool("isRunning", isMoving && runPressed);
     } 
 
 
