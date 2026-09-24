@@ -244,7 +244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 124025567}
   m_Layer: 0
-  m_Name: '[Camera'
+  m_Name: '[Camera]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8908,7 +8908,8 @@ MonoBehaviour:
   rb: {fileID: 1520625537}
   playerInput: {fileID: 1520625544}
   anim: {fileID: 100833131}
-  speed: 7
+  walkSpeed: 5
+  runSpeed: 8
   jumpForce: 10
   jumpCutMultiplier: 0.5
   normalGravity: 1.2
