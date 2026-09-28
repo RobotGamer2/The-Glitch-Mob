@@ -9,15 +9,28 @@ public class ParallaxManager : MonoBehaviour
         public Transform layer;
         [Range(0, 1)] public float parallaxFactor;
     }
-    public ParallaxLayer[] layer;
+    public ParallaxLayer[] layers;
+
+    public Transform camTransform;
+    private Vector3 lastCameraPosition;
 
     void Start()
     {
-        
+        lastCameraPosition = transform.position;
     }
 
-    void Update()
+    void LateUpdate()
     {
-        
+        Vector3 comeraDelta = camTransform.position - lastCameraPosition;
+
+        foreach (ParallaxLayer layer in layers)
+        {
+            float moveX = comeraDelta.x * layer.parallaxFactor;
+            float moveY = comeraDelta.y * layer.parallaxFactor;
+
+            layer.layer.position += new Vector3(moveX, moveY, 0);
+        }
+
+        lastCameraPosition = camTransform.position;
     }
 }
