@@ -115,7 +115,7 @@ public class Player : MonoBehaviour
 
         bool isMoving = Mathf.Abs(moveInput.x) > .1f && isGrounded;
 
-        anim.SetBool("isIdle", !isMoving && isGrounded);
+        
         anim.SetBool("isWalking", isMoving && !runPressed);
         anim.SetBool("isRunning", isMoving && runPressed);
     } 
