@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public PlayerInput playerInput;
     public Animator anim;
 
+
     [Header("Movement Variables")]
     public float walkSpeed;
     public float runSpeed = 8;
