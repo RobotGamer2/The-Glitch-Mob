@@ -1,3 +1,4 @@
+using Unity.Mathematics;
 using UnityEngine;
 
 public class PlayerIdleState : PlayerState
@@ -5,10 +6,33 @@ public class PlayerIdleState : PlayerState
 
 
     public PlayerIdleState(Player player) : base(player) { }
-    
-    
+
+
     public override void Enter()
     {
-        player.anim.SetBool("isIdle", true);
+        anim.SetBool("isIdle", true);
+        rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+
     }
+
+    public override void Update()
+    {
+        base.Update();
+
+        if(JumpPressed)
+        {
+            JumpPressed = false;
+            player.ChangeState(player.jumpState);
+        }
+        else if (math.abs(MoveInput.x) > .1f)
+        {
+            player.ChangeState(player.moveState);
+        }
+    }
+
+    public override void Exit()
+    {
+        anim.SetBool("isIdle", false);
+    }
+
 }

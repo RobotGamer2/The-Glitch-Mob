@@ -5,6 +5,12 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
+    public PlayerState currentState;
+
+    public PlayerIdleState idleState;
+    public PlayerJumpState jumpState;
+    public PlayerMoveState moveState;
+    
     [Header("Components")]
     public Rigidbody2D rb;
     public PlayerInput playerInput;
@@ -23,69 +29,63 @@ public class Player : MonoBehaviour
     public int facingDirection = 1;
 
     //inputs
-    private Vector2 moveInput;
-    private bool runPressed;
-    private bool jumpPressed;
-    private bool jumpRealeased;
+    public Vector2 moveInput;
+    public bool runPressed;
+    public bool jumpPressed;
+    public bool jumpReleased;
 
 
     [Header("Ground Check")]
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask groundLayer;
-    private bool isGrounded;
+    public bool isGrounded;
 
+
+    private void Awake()
+    {
+        idleState = new PlayerIdleState(this);
+        jumpState = new PlayerJumpState(this);
+        moveState = new PlayerMoveState(this);
+    }
 
 
     private void Start()
     {
         rb.gravityScale = normalGravity;
+
+        ChangeState(idleState);
     }
 
     void Update()
     {
+        currentState.Update();
+
         Flip();
         HandleAnimations();
     }
 
     void FixedUpdate()
     {
-        ApplyVariableGravity();
+        currentState.FixedUpdate();
+        
         CheckGrounded();
-        HandleMovement();
-        HandleJump();
+
     }
 
 
-    private void HandleMovement()
+    public void ChangeState(PlayerState newState)
     {
-        float currentSpeed = runPressed ? runSpeed : walkSpeed;
-        float targetSpeed = moveInput.x * currentSpeed;
-        rb.linearVelocity = new Vector2(targetSpeed, rb.linearVelocity.y);
-    }
+        if(currentState != null)
+            currentState.Exit();
 
-
-    private void HandleJump()
-    {
-        if (jumpPressed && isGrounded)
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            jumpPressed = false;
-            jumpRealeased = false;
-        }
-        if (jumpRealeased)
-        {
-            if (rb.linearVelocity.y > 0) //if still going up
-            {
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * jumpCutMultiplier);
-            }
-            jumpRealeased = false;
-        }
-    }
+        currentState = newState;
+        currentState.Enter();
+    }    
 
 
 
-    void ApplyVariableGravity()
+    public void ApplyVariableGravity()
     {
         if (rb.linearVelocity.y < -0.1f)     //faling
         {
@@ -109,16 +109,9 @@ public class Player : MonoBehaviour
 
     void HandleAnimations()
     {
-        anim.SetBool("isJumping", rb.linearVelocity.y > .1f);
         anim.SetBool("isGrounded", isGrounded);
 
         anim.SetFloat("yVelocity", rb.linearVelocity.y);
-
-        bool isMoving = Mathf.Abs(moveInput.x) > .1f && isGrounded;
-
-        
-        anim.SetBool("isWalking", isMoving && !runPressed);
-        anim.SetBool("isRunning", isMoving && runPressed);
     } 
 
 
@@ -155,11 +148,11 @@ public class Player : MonoBehaviour
         if (value.isPressed && isGrounded)
         {
             jumpPressed = true;
-            jumpRealeased = false;
+            jumpReleased = false;
         }
         else //buton is released
         {
-            jumpRealeased = true;
+            jumpReleased = true;
         }
     }
 
