@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 38adf1889aca1604da51d197745a5400
+guid: 0168ccdbda494a443ae0a3108ae4d188
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 234189154208601328
     second: Dummy_0
-  - first:
-      213: -744929848246202890
-    second: Dummy_1
-  - first:
-      213: 2622266444602237589
-    second: Dummy_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -57,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,7 +104,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
+        y: 256
         width: 32
         height: 64
       alignment: 0
@@ -132,6 +126,50 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+        y: 192
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2ac87d29455254ea46289426204883
+      internalID: -524989112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dummy_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94246aa06d305a4185e58c26712b80d
+      internalID: -721160708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dummy_3
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 64
         width: 32
         height: 64
@@ -141,16 +179,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6fd03b4ff3a79a5f0800000000000000
-      internalID: -744929848246202890
+      spriteID: 6e179069ec343074495e558dd2854e32
+      internalID: 566328009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dummy_2
+      name: Dummy_4
       rect:
         serializedVersion: 2
         x: 0
@@ -163,10 +201,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 59261f02079246420800000000000000
-      internalID: 2622266444602237589
+      spriteID: 5517d978d6ea87b4d862399eb9bac292
+      internalID: 1792163606
       vertices: []
       indices: 
       edges: []
@@ -175,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3f2e7577f0dc72d46883109b89d8b783
+    spriteID: 45664512418ec6a4daa5c2b1d54d8f7b
     internalID: 0
     vertices: []
     indices: 
@@ -188,8 +226,10 @@ TextureImporter:
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Dummy_0: 234189154208601328
-      Dummy_1: -744929848246202890
-      Dummy_2: 2622266444602237589
+      Dummy_1: -524989112
+      Dummy_2: -721160708
+      Dummy_3: 566328009
+      Dummy_4: 1792163606
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
