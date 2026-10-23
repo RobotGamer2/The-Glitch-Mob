@@ -20,7 +20,7 @@ public class PlayerMoveState : PlayerState
         {
             player.ChangeState(player.jumpState);
         }
-        else if (math.abs(MoveInput.x) < .1f)
+        else if (Mathf.Abs(MoveInput.x) < .1f)
         {
             player.ChangeState(player.idleState);
         }
