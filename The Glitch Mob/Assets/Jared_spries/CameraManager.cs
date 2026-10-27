@@ -9,11 +9,11 @@ public class CameraManager : MonoBehaviour
 
     void Awake()
     {
-        confiner - vCam.GetComponent<CinemachineConfiner2D>();
+        confiner = vCam.GetComponent<CinemachineConfiner2D>();
     }
     public void setConfiner(Collider2D newConfiner)
     {
-
+        confiner.BoundingShape2D = newConfiner;
     }
 
 }
