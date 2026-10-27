@@ -283,6 +283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraManager
   vCam: {fileID: 1805687688}
+  camTransform: {fileID: 519420032}
 --- !u!1 &504625140
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,6 +893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RoomTransitionManager
   screenFader: {fileID: 664266608}
+  camManager: {fileID: 124025568}
 --- !u!1 &1667285476
 GameObject:
   m_ObjectHideFlags: 0

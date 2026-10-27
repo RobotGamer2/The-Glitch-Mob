@@ -596,8 +596,10 @@ GameObject:
   m_Component:
   - component: {fileID: 724777418}
   - component: {fileID: 724777419}
+  - component: {fileID: 724777420}
+  - component: {fileID: 724777421}
   m_Layer: 0
-  m_Name: Confiner
+  m_Name: CameraConponents
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -676,6 +678,41 @@ PolygonCollider2D:
       - {x: 82.27593, y: 44.987473}
       - {x: 17.75768, y: 49.680187}
   m_UseDelaunayMesh: 1
+--- !u!114 &724777420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724777417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7920c9b6db9850f4e8c80810713293a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraConfinerProvider
+  confiner: {fileID: 724777419}
+--- !u!114 &724777421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724777417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c57c8e59b5060449990aec576e4455, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParallaxManager
+  layers:
+  - layer: {fileID: 1839413074}
+    parallaxFactor: 0.1
+  - layer: {fileID: 1522133416}
+    parallaxFactor: 0.7
+  - layer: {fileID: 1698118327}
+    parallaxFactor: 0.8
+  - layer: {fileID: 1039334525}
+    parallaxFactor: 0.9
+  camTransform: {fileID: 0}
 --- !u!114 &734698758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295912,7 +295949,7 @@ MonoBehaviour:
     parallaxFactor: 0.6
   - layer: {fileID: 1039334525}
     parallaxFactor: 0.7
-  camTransform: {fileID: 0}
+  camTransform: {fileID: 724777418}
 --- !u!114 &1212821552
 MonoBehaviour:
   m_ObjectHideFlags: 0

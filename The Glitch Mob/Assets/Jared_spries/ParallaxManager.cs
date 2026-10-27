@@ -14,13 +14,17 @@ public class ParallaxManager : MonoBehaviour
     public Transform camTransform;
     private Vector3 lastCameraPosition;
 
-    void Start()
+    public void Initialize(Transform camera)
     {
+        camTransform = camera;
         lastCameraPosition = transform.position;
     }
 
     void LateUpdate()
     {
+        if(!camTransform)
+            return;
+
         Vector3 comeraDelta = camTransform.position - lastCameraPosition;
 
         foreach (ParallaxLayer layer in layers)
@@ -28,7 +32,7 @@ public class ParallaxManager : MonoBehaviour
             float moveX = comeraDelta.x * layer.parallaxFactor;
             float moveY = comeraDelta.y * layer.parallaxFactor;
 
-            layer.layer.position += new Vector3(moveX, 0);
+            layer.layer.position += new Vector3(moveX, moveY, 0);
         }
 
         lastCameraPosition = camTransform.position;

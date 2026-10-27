@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class RoomTransitionManager : MonoBehaviour
 {
     [SerializeField] private ScreenFader screenFader;
+    [SerializeField] private CameraManager camManager;  
     private string currentRoom = "";
 
     private void Start()
@@ -34,6 +35,10 @@ public class RoomTransitionManager : MonoBehaviour
             SceneManager.SetActiveScene(newScene);
         currentRoom = SceneManager.GetActiveScene().name;
         SetupRoom(spawnID);
+        SetupCameraConfiner();
+        ResetParallax();
+
+        yield return new WaitForSeconds(.25f);
         yield return screenFader.Fade(1f, 0f, 1f);
     }
 
@@ -56,5 +61,19 @@ public class RoomTransitionManager : MonoBehaviour
 
         }
     }
+
+    private void SetupCameraConfiner()
+    {
+        CameraConfinerProvider provider = FindAnyObjectByType<CameraConfinerProvider>();
+        camManager.setConfiner(provider.confiner);
+    }
+
+    private void ResetParallax()
+    {
+        ParallaxManager parallax = FindAnyObjectByType<ParallaxManager>();
+        if (parallax != null)
+            parallax.Initialize(camManager.camTransform);
+    }
+
 
 }
