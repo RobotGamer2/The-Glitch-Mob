@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: c383141eb0c11ff4b9aea9f2ad2446eb
+guid: b3f784e7c8e269d439612b26a9681a47
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2292128357978606298
-    second: Caution_0
+      213: -5826403314954326461
+    second: More parts_0
+  - first:
+      213: 842120648014439408
+    second: More parts_1
+  - first:
+      213: -903607015994422231
+    second: More parts_2
+  - first:
+      213: 1094875696686027620
+    second: More parts_3
+  - first:
+      213: 7663372678580802387
+    second: More parts_4
+  - first:
+      213: -4523725272186237893
+    second: More parts_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,11 +115,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Caution_0
+      name: More parts_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -115,14 +130,146 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ada0aece8964fcf10800000000000000
-      internalID: 2292128357978606298
+      spriteID: 34e2dfdfd05742fa0800000000000000
+      internalID: -5826403314954326461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caution_1
+      name: More parts_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f32ce28440dfab00800000000000000
+      internalID: 842120648014439408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More parts_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c0a1bd43eb573f0800000000000000
+      internalID: -903607015994422231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More parts_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463dd2e25a7c13f00800000000000000
+      internalID: 1094875696686027620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More parts_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3531e3059d4c95a60800000000000000
+      internalID: 7663372678580802387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More parts_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cc1e925df7831c0800000000000000
+      internalID: -4523725272186237893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More parts_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b67379071bf354ebb2231f93d4ea13
+      internalID: 1604927257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More parts_7
       rect:
         serializedVersion: 2
         x: 16
@@ -137,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bf6ee9c83e37644d85f79de1ed720be
-      internalID: 619938572
+      spriteID: 7a56faa19c5756b4999afbf9af55d389
+      internalID: 1355735693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caution_2
+      name: More parts_8
       rect:
         serializedVersion: 2
         x: 32
@@ -159,36 +306,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21ae898ea7ea1014ca8538361caa791f
-      internalID: 1796757005
+      spriteID: 0f1c771986a9ebb4fbd8c37bcb1cb67e
+      internalID: 830707495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caution_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 249fafa3cc0bf01478da891f118c2e0a
-      internalID: -1849515820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caution_4
+      name: More parts_9
       rect:
         serializedVersion: 2
         x: 0
@@ -203,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 809781ec9ae4b6146875ea14629a95a3
-      internalID: 675497705
+      spriteID: 6a98217327ccc5e41814c48978342390
+      internalID: 880269326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caution_5
+      name: More parts_10
       rect:
         serializedVersion: 2
         x: 16
@@ -225,14 +350,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bbcb4f28fc011147822f83398aeea45
-      internalID: -444549411
+      spriteID: f20828e822180cb4581e87e478bee7a5
+      internalID: 987080879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caution_6
+      name: More parts_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21e0b9d370e59248889d5a57743bc83
+      internalID: -313565064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More parts_12
       rect:
         serializedVersion: 2
         x: 0
@@ -247,14 +394,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abb273f827136084eaaf556c60ecfeea
-      internalID: 1559214032
+      spriteID: d106ad7beed6fb2479530fd451dba231
+      internalID: -2129886439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caution_7
+      name: More parts_13
       rect:
         serializedVersion: 2
         x: 16
@@ -269,14 +416,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f08c1cd4bd834e841a6c695b692e86fb
-      internalID: -1166490541
+      spriteID: 94227f1b76a483c4887dc094ad10d78c
+      internalID: -890536992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caution_8
+      name: More parts_14
       rect:
         serializedVersion: 2
         x: 32
@@ -291,36 +438,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f82f34e9f4cff74e949f5dcae4eb90d
-      internalID: -1096486764
+      spriteID: de1eaeafac1a9ed4bb2d6e162c8f55a5
+      internalID: -879853458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caution_9
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c4ff4656cec5d54f855721a41e44997
-      internalID: -15142124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caution_10
+      name: More parts_15
       rect:
         serializedVersion: 2
         x: 0
@@ -335,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7d1b245f221b8545872d0acef34ae81
-      internalID: 780007602
+      spriteID: c96e3b2e566aa6744befe7799bae65e4
+      internalID: -2013516556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caution_11
+      name: More parts_16
       rect:
         serializedVersion: 2
         x: 16
@@ -357,14 +482,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0cbcafd9b329e749a83897f21855fd2
-      internalID: -350386192
+      spriteID: 04bb292e24a501548b4049194919f352
+      internalID: 1762090926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caution_12
+      name: More parts_17
       rect:
         serializedVersion: 2
         x: 32
@@ -379,30 +504,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7c591b8e429ff547a6198d81f38a4f5
-      internalID: -1941404509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caution_13
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c828994e5903f5b4ba3be75904494024
-      internalID: 526341126
+      spriteID: f46b3253dd235e344b0c5ba6eb626625
+      internalID: -766361228
       vertices: []
       indices: 
       edges: []
@@ -411,7 +514,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e87e6f0b96167ab46aa935e19617d23d
+    spriteID: ecac3aa370e8c46439c4aa96ae38e6b2
     internalID: 0
     vertices: []
     indices: 
@@ -423,20 +526,24 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Caution_0: 2292128357978606298
-      Caution_1: 619938572
-      Caution_10: 780007602
-      Caution_11: -350386192
-      Caution_12: -1941404509
-      Caution_13: 526341126
-      Caution_2: 1796757005
-      Caution_3: -1849515820
-      Caution_4: 675497705
-      Caution_5: -444549411
-      Caution_6: 1559214032
-      Caution_7: -1166490541
-      Caution_8: -1096486764
-      Caution_9: -15142124
+      More parts_0: -5826403314954326461
+      More parts_1: 842120648014439408
+      More parts_10: 987080879
+      More parts_11: -313565064
+      More parts_12: -2129886439
+      More parts_13: -890536992
+      More parts_14: -879853458
+      More parts_15: -2013516556
+      More parts_16: 1762090926
+      More parts_17: -766361228
+      More parts_2: -903607015994422231
+      More parts_3: 1094875696686027620
+      More parts_4: 7663372678580802387
+      More parts_5: -4523725272186237893
+      More parts_6: 1604927257
+      More parts_7: 1355735693
+      More parts_8: 830707495
+      More parts_9: 880269326
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

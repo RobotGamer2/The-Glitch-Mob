@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e99d5f360b8780e4cb24fa7f416bc765
+guid: 82bfc33826d385a44a4667df99e775ad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5826403314954326461
-    second: More parts_0
+      213: -5160660819957252609
+    second: Bricks_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,11 +100,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: More parts_0
+      name: Bricks_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -115,14 +115,146 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34e2dfdfd05742fa0800000000000000
-      internalID: -5826403314954326461
+      spriteID: ffdfb2c9356a168b0800000000000000
+      internalID: -5160660819957252609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: More parts_1
+      name: Bricks_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7300c3593bc10ed48ab1f799ea8e3d5f
+      internalID: -1564948258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bricks_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc770fa9ce069644a07907337ca2698
+      internalID: -1277154537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bricks_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80120e5c69775704f98ff646d1b84da6
+      internalID: -180773448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bricks_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fc51cb2bbfb9a4e89ec1d84f879fa7
+      internalID: -1576504702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bricks_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811eaf1dda82b02488c4d64c005b3c00
+      internalID: -1708307643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bricks_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3101b80e0f6c894f9e5cb4230157ed9
+      internalID: -1323290444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bricks_7
       rect:
         serializedVersion: 2
         x: 16
@@ -137,14 +269,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7072c41767051a343bdfcab43d74d59b
-      internalID: 1756947553
+      spriteID: 20b98b9dc7e286245a893736d93a13d9
+      internalID: 1999761938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: More parts_2
+      name: Bricks_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e41050d51083c48a351f2181a7b3fa
+      internalID: -289240308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bricks_9
       rect:
         serializedVersion: 2
         x: 0
@@ -159,30 +313,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03cfd35b047690142a7359c32598e472
-      internalID: -429802248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: More parts_3
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aebec6ec30e47974f9767e0d636171c1
-      internalID: -57866500
+      spriteID: ad3c9d9b4591b44488f1b2b910786c4a
+      internalID: -371030193
       vertices: []
       indices: 
       edges: []
@@ -191,7 +323,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: de5cd21955c1ab8479d77716a9e11590
+    spriteID: 2ee2776fb4ae20244a32d59ada648849
     internalID: 0
     vertices: []
     indices: 
@@ -203,10 +335,16 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      More parts_0: -5826403314954326461
-      More parts_1: 1756947553
-      More parts_2: -429802248
-      More parts_3: -57866500
+      Bricks_0: -5160660819957252609
+      Bricks_1: -1564948258
+      Bricks_2: -1277154537
+      Bricks_3: -180773448
+      Bricks_4: -1576504702
+      Bricks_5: -1708307643
+      Bricks_6: -1323290444
+      Bricks_7: 1999761938
+      Bricks_8: -289240308
+      Bricks_9: -371030193
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
