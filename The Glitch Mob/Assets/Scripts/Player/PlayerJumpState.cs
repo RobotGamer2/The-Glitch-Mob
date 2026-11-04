@@ -20,7 +20,7 @@ public class PlayerJumpState : PlayerState
     {
         base.Update();
 
-        if (player.isGrounded && rb.linearVelocity.y < 0)
+        if (player.isGrounded && rb.linearVelocity.y <= 0)
             player.ChangeState(player.idleState);
         
     }
@@ -37,8 +37,10 @@ public class PlayerJumpState : PlayerState
             JumpReleased = false;
             
         }
+        
         float speed = RunPressed ? player.runSpeed : player.walkSpeed;
-        rb.linearVelocity = new Vector2(speed * player.facingDirection, rb.linearVelocity.y);
+        float targetSpeed = speed * MoveInput.x;
+        rb.linearVelocity = new Vector2(targetSpeed, rb.linearVelocity.y);
     }
 
     public override void Exit()

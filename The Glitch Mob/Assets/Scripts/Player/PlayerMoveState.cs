@@ -14,7 +14,7 @@ public class PlayerMoveState : PlayerState
 
     public override void Update()
     {
-        base .Update();
+        base.Update();
 
         if(JumpPressed)
         {
@@ -37,7 +37,7 @@ public class PlayerMoveState : PlayerState
     public override void FixedUpdate()
     {
         base.FixedUpdate();
-
+        
         float speed = RunPressed ? player.runSpeed : player.walkSpeed;
         rb.linearVelocity = new Vector2(speed * player.facingDirection, rb.linearVelocity.y);
     }
