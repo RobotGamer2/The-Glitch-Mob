@@ -10,7 +10,14 @@ public class Player : MonoBehaviour
     public PlayerIdleState idleState;
     public PlayerJumpState jumpState;
     public PlayerMoveState moveState;
-    
+
+
+    [Header("Attack Settings")]
+    public int damage;
+    public float attackRadius = .5f;
+    public Transform attackPoint;
+    public LayerMask enemyLayer;
+
     [Header("Components")]
     public Rigidbody2D rb;
     public PlayerInput playerInput;
@@ -143,7 +150,10 @@ public class Player : MonoBehaviour
 
     public void OnAttack (InputValue value)
     {
-        Debug.Log("AttackPressed");
+        Collider2D enemy = Physics2D.OverlapCircle(attackPoint.position, attackRadius, enemyLayer);
+
+        if (enemy != null)
+            enemy.gameObject.GetComponent<Health>().ChangeHealth(-damage);
     }
 
     public void OnJump (InputValue value)
