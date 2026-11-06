@@ -95970,17 +95970,19 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -60.037933, y: 52.760883}
-      - {x: -91.79604, y: 39.545692}
-      - {x: -103.156265, y: -34.42264}
-      - {x: -92.722, y: -42.497726}
-      - {x: 5.6971474, y: -63.071075}
-      - {x: 30.551142, y: -64.71016}
-      - {x: 189.45308, y: -62.858307}
-      - {x: 194.59972, y: -3.3488173}
-      - {x: 170.37682, y: 46.43297}
-      - {x: 82.60375, y: 50.068684}
-      - {x: 28.509535, y: 50.694515}
+    - - {x: -45.786964, y: 22.601849}
+      - {x: -70.58532, y: 23.306213}
+      - {x: -71.34013, y: -42.045258}
+      - {x: -66.696045, y: -42.20559}
+      - {x: -54.47287, y: -41.83519}
+      - {x: 1.2523537, y: -40.47671}
+      - {x: 32.71408, y: -41.069683}
+      - {x: 168.8023, y: -39.985138}
+      - {x: 169.08054, y: -12.628522}
+      - {x: 171.83754, y: 21.43844}
+      - {x: 99.83749, y: 22.229572}
+      - {x: 77.49293, y: 23.229446}
+      - {x: 33.149384, y: 22.855412}
   m_UseDelaunayMesh: 1
 --- !u!114 &1347391506
 MonoBehaviour:
@@ -95996,11 +95998,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxManager
   layers:
   - layer: {fileID: 808227105}
-    parallaxFactor: 0.1
-  - layer: {fileID: 94565091}
-    parallaxFactor: 0.5
-  - layer: {fileID: 1991202}
     parallaxFactor: 0.6
+  - layer: {fileID: 94565091}
+    parallaxFactor: 0.3
+  - layer: {fileID: 1991202}
+    parallaxFactor: 0.4
   - layer: {fileID: 270218109}
     parallaxFactor: 0.7
   camTransform: {fileID: 0}
