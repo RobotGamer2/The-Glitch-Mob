@@ -141,9 +141,12 @@ public class Player : MonoBehaviour
         runPressed = value.isPressed;
     }
 
+    public void OnAttack (InputValue value)
+    {
+        Debug.Log("AttackPressed");
+    }
 
-
-    public void OnJump(InputValue value)
+    public void OnJump (InputValue value)
     {
         if (value.isPressed && isGrounded)
         {

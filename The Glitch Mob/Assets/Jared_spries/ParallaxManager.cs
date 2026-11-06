@@ -30,6 +30,7 @@ public class ParallaxManager : MonoBehaviour
         foreach (ParallaxLayer layer in layers)
         {
             float moveX = comeraDelta.x * layer.parallaxFactor;
+            
 
             layer.layer.position += new Vector3(moveX, 0);
         }
