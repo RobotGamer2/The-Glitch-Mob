@@ -367917,8 +367917,8 @@ GameObject:
   - component: {fileID: 1086444894}
   - component: {fileID: 1086444893}
   - component: {fileID: 1086444892}
-  - component: {fileID: 1086444897}
   - component: {fileID: 1086444896}
+  - component: {fileID: 1086444897}
   - component: {fileID: 1086444895}
   m_Layer: 7
   m_Name: Dummy
@@ -368087,7 +368087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 464f591db5af4544194b2f97c20a2083, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  health: 0
+  health: 10
   maxHealth: 10
 --- !u!213 &1097270522
 Sprite:
