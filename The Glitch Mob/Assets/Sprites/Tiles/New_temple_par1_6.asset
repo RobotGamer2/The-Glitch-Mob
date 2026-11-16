@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: tempal_outside!!_5
+  m_Name: New_temple_par1_6
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: -686895950, guid: 2db07a476dbf0534f88a0407ec4e2d7d, type: 3}
+  m_Sprite: {fileID: -315112427, guid: a839c48ac7ca5dc4799de43415cdbbac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

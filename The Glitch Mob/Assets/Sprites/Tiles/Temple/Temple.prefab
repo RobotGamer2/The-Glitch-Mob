@@ -361,6 +361,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 57ba68b0f1f69a04bace2deada00674c, type: 2}
   - serializedVersion: 2
     m_RefCount: 1
+<<<<<<< Updated upstream
     m_Data: {fileID: 11400000, guid: b78c722112470434dbe55d2ce3df8971, type: 2}
   - serializedVersion: 2
     m_RefCount: 1
@@ -401,6 +402,36 @@ Tilemap:
   - serializedVersion: 2
     m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 288613e7912cd654eacd9d9322158bd1, type: 2}
+=======
+    m_Data: {fileID: 11400000, guid: 10dbfc9d3143aa044ad8db614db29f10, type: 2}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: c27d3f90aa245d0479fa11e5faa13de4, type: 2}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: c8ca3d4a66dfb79438a0d724db11af4d, type: 2}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 0d085afd8ba89bb44bd2abb00613054d, type: 2}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: f6b547395688cfa4a9990355663be6c4, type: 2}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: ed65e027fde6b3846843fb3c77e2230a, type: 2}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 510ed09a8d20c37408782fd3516c1e9f, type: 2}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 4715ff13a0dd10b4887bdf1139a54934, type: 2}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: bc17baffc86408e44bf9ab3296b03b82, type: 2}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: bf9d2c2dabcf9db4596a4f88a0c61155, type: 2}
+>>>>>>> Stashed changes
   m_TileSpriteArray:
   - serializedVersion: 2
     m_RefCount: 1
@@ -434,6 +465,7 @@ Tilemap:
     m_Data: {fileID: -371030193, guid: 82bfc33826d385a44a4667df99e775ad, type: 3}
   - serializedVersion: 2
     m_RefCount: 1
+<<<<<<< Updated upstream
     m_Data: {fileID: -2107880918, guid: c4f07aba76baca84f82e4a6000db4a70, type: 3}
   - serializedVersion: 2
     m_RefCount: 1
@@ -477,6 +509,39 @@ Tilemap:
   m_TileMatrixArray:
   - serializedVersion: 2
     m_RefCount: 24
+=======
+    m_Data: {fileID: -87946960, guid: a839c48ac7ca5dc4799de43415cdbbac, type: 3}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: 1000041060706712242, guid: a839c48ac7ca5dc4799de43415cdbbac, type: 3}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: 2081365467, guid: a839c48ac7ca5dc4799de43415cdbbac, type: 3}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: 1973464701, guid: a839c48ac7ca5dc4799de43415cdbbac, type: 3}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: 1826162501, guid: a839c48ac7ca5dc4799de43415cdbbac, type: 3}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: 1416109649, guid: a839c48ac7ca5dc4799de43415cdbbac, type: 3}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: 487507724, guid: a839c48ac7ca5dc4799de43415cdbbac, type: 3}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: -315112427, guid: a839c48ac7ca5dc4799de43415cdbbac, type: 3}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: -1468665878, guid: a839c48ac7ca5dc4799de43415cdbbac, type: 3}
+  - serializedVersion: 2
+    m_RefCount: 1
+    m_Data: {fileID: -1742238334, guid: a839c48ac7ca5dc4799de43415cdbbac, type: 3}
+  m_TileMatrixArray:
+  - serializedVersion: 2
+    m_RefCount: 20
+>>>>>>> Stashed changes
     m_Data:
       e00: 1
       e01: 0
@@ -496,8 +561,40 @@ Tilemap:
       e33: 1
   m_TileColorArray:
   - serializedVersion: 2
+<<<<<<< Updated upstream
     m_RefCount: 24
     m_Data: {r: 1, g: 1, b: 1, a: 1}
+=======
+    m_RefCount: 20
+    m_Data: {r: 1, g: 1, b: 1, a: 1}
+  - serializedVersion: 2
+    m_RefCount: 0
+    m_Data: {r: 0.7147195, g: 0.4463928, b: 0.52164644, a: 1}
+  - serializedVersion: 2
+    m_RefCount: 0
+    m_Data: {r: 0.85622454, g: 0.47236606, b: 0.47328967, a: 1}
+  - serializedVersion: 2
+    m_RefCount: 0
+    m_Data: {r: 0.95244145, g: 0.3934139, b: 0.4910853, a: 1}
+  - serializedVersion: 2
+    m_RefCount: 0
+    m_Data: {r: 0.7164871, g: 0.4356336, b: 0.44641304, a: 1}
+  - serializedVersion: 2
+    m_RefCount: 0
+    m_Data: {r: 0.81438714, g: 0.42552483, b: 0.47809184, a: 1}
+  - serializedVersion: 2
+    m_RefCount: 0
+    m_Data: {r: 0.7781934, g: 0.45020548, b: 0.53238326, a: 1}
+  - serializedVersion: 2
+    m_RefCount: 0
+    m_Data: {r: 0.97673404, g: 0.6546019, b: 0.75692016, a: 1}
+  - serializedVersion: 2
+    m_RefCount: 0
+    m_Data: {r: 0.7051973, g: 0.3686327, b: 0.45899844, a: 1}
+  - serializedVersion: 2
+    m_RefCount: 0
+    m_Data: {r: 0.75854796, g: 0.46409717, b: 0.5590731, a: 1}
+>>>>>>> Stashed changes
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -578,7 +675,11 @@ TilemapRenderer:
   m_SortOrder: 0
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
+<<<<<<< Updated upstream
 --- !u!114 &5615796524292087415
+=======
+--- !u!114 &100636702115123560
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

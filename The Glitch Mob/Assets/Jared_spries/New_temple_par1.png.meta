@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 2db07a476dbf0534f88a0407ec4e2d7d
+guid: a839c48ac7ca5dc4799de43415cdbbac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8852581172199833113
-    second: tempal_outside!!_0
-  - first:
-      213: -1184653131058941528
-    second: tempal_outside!!_1
+      213: 1000041060706712242
+    second: New_temple_par1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,11 +100,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tempal_outside!!_0
+      name: New_temple_par1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -118,14 +115,80 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91e38425cafaada70800000000000000
-      internalID: 8852581172199833113
+      spriteID: 2ba7a38db0cd0ed00800000000000000
+      internalID: 1000041060706712242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tempal_outside!!_1
+      name: New_temple_par1_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079073d79bbc2f84da46bbf83ab4d318
+      internalID: 2081365467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New_temple_par1_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fcd613247a4db4cbb41e76731f3d78
+      internalID: 1973464701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New_temple_par1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd20abebbc31adf48b2bf8d8f86fa861
+      internalID: 1826162501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New_temple_par1_4
       rect:
         serializedVersion: 2
         x: 64
@@ -138,16 +201,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8a17d2df0444f8fe0800000000000000
-      internalID: -1184653131058941528
+      spriteID: 6bc3ca8d30a69f64e872a33caf2002cf
+      internalID: 1416109649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tempal_outside!!_2
+      name: New_temple_par1_5
       rect:
         serializedVersion: 2
         x: 128
@@ -162,14 +225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2cf4badb59f7834fb78777641d267d6
-      internalID: 1891305610
+      spriteID: 4379824e02973b44ba3e03dbf1639639
+      internalID: 487507724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tempal_outside!!_3
+      name: New_temple_par1_6
       rect:
         serializedVersion: 2
         x: 0
@@ -184,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02e7d5e721c52174c851297f83dfb67b
-      internalID: -795954954
+      spriteID: 0aea9c03d70c1be42b4a95eaa95937db
+      internalID: -315112427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tempal_outside!!_4
+      name: New_temple_par1_7
       rect:
         serializedVersion: 2
         x: 64
@@ -206,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bec76f2540e20de4cbea730b035f3038
-      internalID: -2090009465
+      spriteID: 0de3f866135d9ba419cbf7f56ecdb1db
+      internalID: -1468665878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tempal_outside!!_5
+      name: New_temple_par1_8
       rect:
         serializedVersion: 2
         x: 128
@@ -228,14 +291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0b72d3340ef2634ab8af80f6521a4fd
-      internalID: -686895950
+      spriteID: 3cab5d662cccb784b8062faa25a8f83a
+      internalID: -87946960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tempal_outside!!_6
+      name: New_temple_par1_9
       rect:
         serializedVersion: 2
         x: 0
@@ -250,52 +313,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 155f8b3d86ca0cd489c927ebaa52688a
-      internalID: -1157729665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tempal_outside!!_7
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81c671aa4703c0f44b64605d79f41ee7
-      internalID: -584193313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tempal_outside!!_8
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4a4394addfd4144e92eecdfb25ad173
-      internalID: -1590157485
+      spriteID: fffae237d29c3214e8488f13a2ad6cb2
+      internalID: -1742238334
       vertices: []
       indices: 
       edges: []
@@ -304,7 +323,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6d8ad3c2ba23411448352f33ac115059
+    spriteID: 086af42707723b8449def6c3b07f7924
     internalID: 0
     vertices: []
     indices: 
@@ -316,15 +335,16 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      tempal_outside!!_0: 8852581172199833113
-      tempal_outside!!_1: -1184653131058941528
-      tempal_outside!!_2: 1891305610
-      tempal_outside!!_3: -795954954
-      tempal_outside!!_4: -2090009465
-      tempal_outside!!_5: -686895950
-      tempal_outside!!_6: -1157729665
-      tempal_outside!!_7: -584193313
-      tempal_outside!!_8: -1590157485
+      New_temple_par1_0: 1000041060706712242
+      New_temple_par1_1: 2081365467
+      New_temple_par1_2: 1973464701
+      New_temple_par1_3: 1826162501
+      New_temple_par1_4: 1416109649
+      New_temple_par1_5: 487507724
+      New_temple_par1_6: -315112427
+      New_temple_par1_7: -1468665878
+      New_temple_par1_8: -87946960
+      New_temple_par1_9: -1742238334
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
