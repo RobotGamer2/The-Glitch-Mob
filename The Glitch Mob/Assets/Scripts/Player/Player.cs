@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public PlayerIdleState idleState;
     public PlayerJumpState jumpState;
     public PlayerMoveState moveState;
+    public PlayerAttackState attackState;
 
 
     [Header("Attack Settings")]
@@ -40,6 +41,7 @@ public class Player : MonoBehaviour
     public bool runPressed;
     public bool jumpPressed;
     public bool jumpReleased;
+    public bool attackPressed;
 
 
     [Header("Ground Check")]
@@ -54,6 +56,7 @@ public class Player : MonoBehaviour
         idleState = new PlayerIdleState(this);
         jumpState = new PlayerJumpState(this);
         moveState = new PlayerMoveState(this);
+        attackState = new PlayerAttackState(this);
     }
 
 
@@ -136,6 +139,11 @@ public class Player : MonoBehaviour
         transform.localScale = new Vector3(facingDirection, 1 , 1);
     }
     
+    public void AttackAnimationFinished()
+    {
+        currentState.AttackAnimationFinished();
+    }
+
 
     public void OnMove (InputValue value)
     {
@@ -150,6 +158,8 @@ public class Player : MonoBehaviour
 
     public void OnAttack (InputValue value)
     {
+        attackPressed = value.isPressed;
+
         Collider2D enemy = Physics2D.OverlapCircle(attackPoint.position, attackRadius, enemyLayer);
 
         if (enemy != null)
