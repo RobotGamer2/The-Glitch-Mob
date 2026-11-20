@@ -1,4 +1,5 @@
 using UnityEngine;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class PlayerAttackState : PlayerState
 {
@@ -9,16 +10,19 @@ public class PlayerAttackState : PlayerState
     {
         base.Enter();
 
-        anim.SetBool("isAttackingIdle", true);
-        
+        if (Mathf.Abs(MoveInput.x) > .1f)
+            anim.SetBool("isAttacking", true);
+        else
+            anim.SetBool("isAttackIdle", true);
+
     }
 
     public override void AttackAnimationFinished()
     {
         if (Mathf.Abs(MoveInput.x) > .1f)
-            anim.SetBool("isAttacking", true);
+            player.ChangeState(player.moveState);
         else
-            anim.SetBool("isAttackingIdle", true);
+            player.ChangeState(player.idleState);
     }
 
 
@@ -27,5 +31,6 @@ public class PlayerAttackState : PlayerState
         base.Exit();
 
         anim.SetBool("isAttacking", false);
+        anim.SetBool("isAttackIdle", false);
     }
 }
