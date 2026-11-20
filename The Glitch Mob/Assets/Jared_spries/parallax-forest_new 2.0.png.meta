@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 253d87dc36c1448499feb8cc0249c6af
+guid: 37f23e1ac06c052468ca66f78b602c4d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2787385041259718962
-    second: parallax-forest_new_0
+      213: 2744378201059511311
+    second: parallax-forest_new 2.0_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 544
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: parallax-forest_new_0
+      name: parallax-forest_new 2.0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,14 +115,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 239e5844de7cea620800000000000000
-      internalID: 2787385041259718962
+      spriteID: f0c4a7bfe6df51620800000000000000
+      internalID: 2744378201059511311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parallax-forest_new_1
+      name: parallax-forest_new 2.0_1
       rect:
         serializedVersion: 2
         x: 272
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fde93b7538b800a4cbd3d60f8fc4e222
-      internalID: 729526084
+      spriteID: 7a657d7563abcf94da692ec80fdc0b7d
+      internalID: -337239164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parallax-forest_new_2
+      name: parallax-forest_new 2.0_2
       rect:
         serializedVersion: 2
         x: 0
@@ -159,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db546d95aa3de494daa78ad348edca39
-      internalID: -769033354
+      spriteID: 5288d8f0399ed44469e88c6488ddaec6
+      internalID: -1492291676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parallax-forest_new_3
+      name: parallax-forest_new 2.0_3
       rect:
         serializedVersion: 2
         x: 272
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5e9f9c89d9a38a44a482cedb19858e7
-      internalID: 1494097268
+      spriteID: e339cdce8d1301d42a8ed08f0850e86c
+      internalID: -1754023436
       vertices: []
       indices: 
       edges: []
@@ -191,7 +191,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 01676209ad64ff14ab48974f303162e0
+    spriteID: f15f34b2b517cd846852df8df77937e8
     internalID: 0
     vertices: []
     indices: 
@@ -201,12 +201,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":2.0},"gridSpriteSize":{"x":272.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":272.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      parallax-forest_new_0: 2787385041259718962
-      parallax-forest_new_1: 729526084
-      parallax-forest_new_2: -769033354
-      parallax-forest_new_3: 1494097268
+      parallax-forest_new 2.0_0: 2744378201059511311
+      parallax-forest_new 2.0_1: -337239164
+      parallax-forest_new 2.0_2: -1492291676
+      parallax-forest_new 2.0_3: -1754023436
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
