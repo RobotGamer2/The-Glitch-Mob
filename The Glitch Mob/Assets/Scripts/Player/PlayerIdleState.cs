@@ -19,7 +19,10 @@ public class PlayerIdleState : PlayerState
     {
         base.Update();
 
-        if(JumpPressed)
+        if (AttackPressed)
+            player.ChangeState(player.attackState);
+
+        else if(JumpPressed)
         {
             JumpPressed = false;
             player.ChangeState(player.jumpState);
